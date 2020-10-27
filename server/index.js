@@ -14,7 +14,7 @@ import errorHandlerMiddleware from './middleware/error-handler.js';
 import musicRouter from './routes/music.js';
 
 const HOST = process.env.HOST || '127.0.0.1';
-const PORT = proccess.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 export const databaseURI =
   process.env.DATA_BASE_URI || 'mongodb://localhost/mongoose-intro';
 // const databaseURI = 'mongodb://localhost:2700/mongoose-intro
